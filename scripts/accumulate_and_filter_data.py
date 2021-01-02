@@ -12,7 +12,7 @@ IMPORTANT_FIELDS = {
     'Consultoria': ['Adscripción', 'Área responsable', 'Sector'],
     'Cursos': ['Adscripción', 'Área responsable', 'Sector'],
     'Proyectos': ['Adscripción', 'Área responsable', 'Sector'],
-    'OtrasActividades': ['Depa218', ],
+    'OtrasActividades': ['Adscripción', ],
 }
 AREA_MAPPING = {
     'MY': 'Monterrey',
@@ -39,15 +39,15 @@ TABLE_INDEX = 0  # Articulos
 FIELD_INDEX = 0
 
 # Read data 2016-2018
-file_paths = glob.glob('data/2016-2018/*.xls*')
+file_paths = glob.glob('../data/2016-2018/*.xls*')
 file_paths.sort()
-file_titles = [title.split('/')[2].split('.')[0].strip() for title in file_paths]
+file_titles = [title.split('/')[3].split('.')[0].strip() for title in file_paths]
 
 # Add a DataFrame (table) for each file into a dictionary with file_titles as keys
 data_frames = {file_titles[i]: pandas.read_excel(path) for i, path in enumerate(file_paths)}
 
 # Read data from 2019
-extra_data_frame = pandas.read_excel('data/2019_S2/1. Publicaciones.xlsx')
+extra_data_frame = pandas.read_excel('../data/2019_S2/1. Publicaciones.xlsx')
 
 # Data Cleaning reformatting
 for file_title, df in data_frames.items():
@@ -108,7 +108,7 @@ def create_count_table(file_title):
                           output_column_labels=output_column_labels)
 
     output_table = pandas.DataFrame.from_dict(output_dic, orient='index', columns=output_column_labels)
-    output_table.to_csv(f'data/output/{file_title}.csv', index_label=YEAR_LABEL)
+    output_table.to_csv(f'../data/output/{file_title}.csv', index_label=YEAR_LABEL)
     return output_table
 
 
