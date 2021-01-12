@@ -1,0 +1,21 @@
+name: aplicativo_tablero_cst
+description: Aplicativo Flutter para Tablero de Indicadores de la CST - CIMAT
+publish_to: 'none'
+
+version: 0.1.0
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  http: ^0.12.2
+
+# The following section is specific to Flutter.
+flutter:
+  uses-material-design: true
+
+  assets:
+    - images/

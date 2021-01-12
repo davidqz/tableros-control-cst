@@ -1,0 +1,22 @@
+{
+    "name": "Aplicativo Tablero CST",
+    "short_name": "aplicativo_tablero_cst",
+    "scope": "/",
+    "start_url": "/",
+    "display": "minimal-ui",
+    "background_color": "#89888b",
+    "theme_color": "#64293e",
+    "description": "Aplicativo Flutter para Tablero de Indicadores de la CST - CIMAT",
+    "icons": [
+        {
+            "src": "icons/Icon-192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "icons/Icon-512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}
