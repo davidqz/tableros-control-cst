@@ -1,5 +1,6 @@
-import 'package:aplicativo_tablero_cst/constants.dart';
-import 'package:aplicativo_tablero_cst/screens/sign_up_screen.dart';
+import 'package:aplicativo_tablero_cst/constantes.dart';
+import 'package:aplicativo_tablero_cst/paginas/pagina_inicio_sesion.dart';
+import 'package:aplicativo_tablero_cst/paginas/pagina_servicios.dart';
 import 'package:flutter/material.dart';
 
 void main() => runApp(MainApp());
@@ -9,9 +10,10 @@ class MainApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       routes: {
-        '/': (context) => SignUpScreen(),
+        '/': (context) => PaginaInicioSesion(),
+        '/servicios': (context) => PaginaServicios(),
       },
-      title: 'Tablero CST',
+      title: 'Tablero de Indicadores CST',
       theme: ThemeData(
           primaryColor: kColorPrimario,
           accentColor: kColorSecundario,
