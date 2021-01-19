@@ -18,4 +18,5 @@ flutter:
   uses-material-design: true
 
   assets:
-    - images/
+    - imagenes/
+    - datos/serviciosDesarrollo.json

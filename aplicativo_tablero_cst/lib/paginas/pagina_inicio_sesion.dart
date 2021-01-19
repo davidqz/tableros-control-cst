@@ -1,4 +1,4 @@
-import 'package:aplicativo_tablero_cst/constantes.dart';
+import 'package:aplicativo_tablero_cst/utilidades/constantes.dart';
 import 'package:aplicativo_tablero_cst/widgets/formulario_ingreso.dart';
 import 'package:flutter/material.dart';
 
@@ -15,7 +15,7 @@ class PaginaInicioSesion extends StatelessWidget {
               Padding(
                 padding: const EdgeInsets.all(24.0),
                 child: Image(
-                  image: AssetImage('images/logo_conacyt.png'),
+                  image: AssetImage('imagenes/logo_conacyt.png'),
                   height: 80,
                 ),
               ),
@@ -27,7 +27,7 @@ class PaginaInicioSesion extends StatelessWidget {
               Padding(
                 padding: const EdgeInsets.all(24.0),
                 child: Image(
-                  image: AssetImage('images/logo_cimat.png'),
+                  image: AssetImage('imagenes/logo_cimat.png'),
                   height: 80,
                 ),
               ),
@@ -43,7 +43,7 @@ class PaginaInicioSesion extends StatelessWidget {
                 child: FormularioIngreso(),
               ),
             ),
-          )
+          ),
         ],
       ),
     );

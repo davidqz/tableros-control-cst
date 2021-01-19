@@ -1,0 +1,335 @@
+{
+   "servicios":[
+      {
+         "idServicio":"1",
+         "interno":"0",
+         "nombreCorto":"EME Bioestadística",
+         "areaResponsable":"Unidad Aguascalientes",
+         "estatus":"Abierto",
+         "alcance":"Estatal",
+         "cliente":{
+            "nombre":"Varios",
+            "sector":"Privado",
+            "pais":"Estados Unidos Mexicanos",
+            "estado":"Aguascalientes",
+            "ciudad":"Aguascalientes"
+         },
+         "fechaInicioProgramada":"2020-03-06",
+         "fechaFinProgramada":"2021-10-15",
+         "avances":[
+            {
+               "mes":6,
+               "anyo":2020,
+               "porcentajeAvance":5
+            },
+            {
+               "mes":7,
+               "anyo":2020,
+               "porcentajeAvance":7
+            },
+            {
+               "mes":8,
+               "anyo":2020,
+               "porcentajeAvance":10
+            }
+         ]
+      },
+      {
+         "idServicio":"2",
+         "interno":"0",
+         "nombreCorto":"EMED 2020",
+         "areaResponsable":"Unidad Aguascalientes",
+         "estatus":"Abierto",
+         "alcance":"Estatal",
+         "cliente":{
+            "nombre":"Varios",
+            "sector":"Privado",
+            "pais":"Estados Unidos Mexicanos",
+            "estado":"Aguascalientes",
+            "ciudad":"Aguascalientes"
+         },
+         "fechaInicioProgramada":"2020-03-06",
+         "fechaFinProgramada":"2021-06-30",
+         "avances":[
+            
+         ]
+      },
+      {
+         "idServicio":"3",
+         "interno":"0",
+         "nombreCorto":"Coopel. Curso Deep Learning",
+         "areaResponsable":"Gerencia de Desarrollo de Software",
+         "estatus":"Abierto",
+         "alcance":"Estatal",
+         "cliente":{
+            "nombre":"Coppel S.A. de C.V.",
+            "sector":"Privado",
+            "pais":"Estados Unidos Mexicanos",
+            "estado":"Sinaloa",
+            "ciudad":"Culiacán"
+         },
+         "fechaInicioProgramada":"2020-04-15",
+         "fechaFinProgramada":"2020-12-15",
+         "avances":[
+            
+         ]
+      },
+      {
+         "idServicio":"4",
+         "interno":"0",
+         "nombreCorto":"Inovacor Actualización de algoritmo",
+         "areaResponsable":"Gerencia de Matemáticas Industriales",
+         "estatus":"Abierto",
+         "alcance":"Estatal",
+         "cliente":{
+            "nombre":"Inovacor S.A. de C.V.",
+            "sector":"Privado",
+            "pais":"Estados Unidos Mexicanos",
+            "estado":"Querétaro",
+            "ciudad":"Querétaro"
+         },
+         "fechaInicioProgramada":"2020-05-22",
+         "fechaFinProgramada":"2020-08-28",
+         "avances":[
+            
+         ]
+      },
+      {
+         "idServicio":"6",
+         "interno":"0",
+         "nombreCorto":"SIEMENS CAPACITACION 01",
+         "areaResponsable":"Gerencia de Matemáticas Industriales",
+         "estatus":"Abierto",
+         "alcance":"",
+         "cliente":{
+            "nombre":"Industrias Michelin S.A. DE C.V.",
+            "sector":"Privado",
+            "pais":"Estados Unidos Mexicanos",
+            "estado":"Querétaro",
+            "ciudad":"Querétaro"
+         },
+         "fechaInicioProgramada":"2017-06-05",
+         "fechaFinProgramada":"2020-03-16",
+         "avances":[
+            
+         ]
+      },
+      {
+         "idServicio":"7",
+         "interno":"0",
+         "nombreCorto":"INEGI.MAEC",
+         "areaResponsable":"Unidad Monterrey",
+         "estatus":"Abierto",
+         "alcance":"Nacional",
+         "cliente":{
+            "nombre":"Instituto Nacional de Geografía y Estadística",
+            "sector":"Público",
+            "pais":"Estados Unidos Mexicanos",
+            "estado":"Aguascalientes",
+            "ciudad":"Aguascalientes"
+         },
+         "fechaInicioProgramada":"2019-06-28",
+         "fechaFinProgramada":"2023-01-31",
+         "avances":[
+            
+         ]
+      },
+      {
+         "idServicio":"8",
+         "interno":"0",
+         "nombreCorto":"Comercialización de productos de instrumentación",
+         "areaResponsable":"Coordinación de Servicios Tecnológicos",
+         "estatus":"Abierto",
+         "alcance":"",
+         "cliente":{
+            "nombre":"Varios",
+            "sector":"Privado",
+            "pais":"Estados Unidos Mexicanos",
+            "estado":"Aguascalientes",
+            "ciudad":"Aguascalientes"
+         },
+         "fechaInicioProgramada":"2019-12-09",
+         "fechaFinProgramada":"2020-12-31",
+         "avances":[
+            {
+               "mes":9,
+               "anyo":2020,
+               "porcentajeAvance":100
+            }
+         ]
+      },
+      {
+         "idServicio":"9",
+         "interno":"0",
+         "nombreCorto":"Curso Introducción a MPI",
+         "areaResponsable":"Ciencias de la Computación",
+         "estatus":"Cerrado",
+         "alcance":"Nacional",
+         "cliente":{
+            "nombre":"Varios",
+            "sector":"Privado",
+            "pais":"Estados Unidos Mexicanos",
+            "estado":"Aguascalientes",
+            "ciudad":"Aguascalientes"
+         },
+         "fechaInicioProgramada":"2020-08-06",
+         "fechaFinProgramada":"2020-08-21",
+         "avances":[
+            {
+               "mes":8,
+               "anyo":2020,
+               "porcentajeAvance":100
+            }
+         ]
+      },
+      {
+         "idServicio":"11",
+         "interno":"0",
+         "nombreCorto":"SISAMEX. Incorporación Industrial",
+         "areaResponsable":"Unidad Monterrey",
+         "estatus":"Abierto",
+         "alcance":"",
+         "cliente":{
+            "nombre":"Sistemas Automotrices de México S.A. de C.V.",
+            "sector":"Privado",
+            "pais":"Estados Unidos Mexicanos",
+            "estado":"Nuevo León",
+            "ciudad":"General Escobedo"
+         },
+         "fechaInicioProgramada":"2018-03-15",
+         "fechaFinProgramada":"2020-07-16",
+         "avances":[
+            
+         ]
+      },
+      {
+         "idServicio":"12",
+         "interno":"1",
+         "nombreCorto":"Soporte y Mantenimiento de aplicaciones activas 2019",
+         "areaResponsable":"Gerencia de Desarrollo de Software",
+         "estatus":"Abierto",
+         "alcance":"",
+         "cliente":{
+            "nombre":"Centro de Investigación en Matemáticas A.C.",
+            "sector":"Público",
+            "pais":"Estados Unidos Mexicanos",
+            "estado":"Guanajuato",
+            "ciudad":"Guanajuato"
+         },
+         "fechaInicioProgramada":"2019-01-01",
+         "fechaFinProgramada":"2019-12-31",
+         "avances":[
+            
+         ]
+      },
+      {
+         "idServicio":"13",
+         "interno":"1",
+         "nombreCorto":"3a. Etapa de Sistema de navegación Autónoma del CIMAT",
+         "areaResponsable":"Gerencia de Desarrollo de Software",
+         "estatus":"Abierto",
+         "alcance":"",
+         "cliente":{
+            "nombre":"Centro de Investigación en Matemáticas A.C.",
+            "sector":"Público",
+            "pais":"Estados Unidos Mexicanos",
+            "estado":"Guanajuato",
+            "ciudad":"Guanajuato"
+         },
+         "fechaInicioProgramada":"2019-01-01",
+         "fechaFinProgramada":"2019-12-31",
+         "avances":[
+            
+         ]
+      },
+      {
+         "idServicio":"14",
+         "interno":"0",
+         "nombreCorto":"Curso prueba 6 SIGMA",
+         "areaResponsable":"Unidad Zacatecas",
+         "estatus":"Abierto",
+         "alcance":"",
+         "cliente":{
+            "nombre":"Sistemas Automotrices de México S.A. de C.V.",
+            "sector":"Privado",
+            "pais":"Estados Unidos Mexicanos",
+            "estado":"Nuevo León",
+            "ciudad":"General Escobedo"
+         },
+         "fechaInicioProgramada":"2020-09-02",
+         "fechaFinProgramada":"2020-12-09",
+         "avances":[
+            {
+               "mes":9,
+               "anyo":2020,
+               "porcentajeAvance":50
+            },
+            {
+               "mes":10,
+               "anyo":2020,
+               "porcentajeAvance":100
+            }
+         ]
+      },
+      {
+         "idServicio":"15",
+         "interno":"0",
+         "nombreCorto":"Optimización F1 -Sistemas Atomotrices mexico -2020",
+         "areaResponsable":"Unidad Zacatecas",
+         "estatus":"Abierto",
+         "alcance":"",
+         "cliente":{
+            "nombre":"Sistemas Automotrices de México S.A. de C.V.",
+            "sector":"Privado",
+            "pais":"Estados Unidos Mexicanos",
+            "estado":"Nuevo León",
+            "ciudad":"General Escobedo"
+         },
+         "fechaInicioProgramada":"2020-09-21",
+         "fechaFinProgramada":"2020-12-01",
+         "avances":[
+            
+         ]
+      },
+      {
+         "idServicio":"16",
+         "interno":"1",
+         "nombreCorto":"Proyecto interno de Planificación de nuevo programa académico: Maestría Tecnologías de la Información",
+         "areaResponsable":"Unidad Zacatecas",
+         "estatus":"Abierto",
+         "alcance":"",
+         "cliente":{
+            "nombre":"Centro de Investigación en Matemáticas A.C.",
+            "sector":"Público",
+            "pais":"Estados Unidos Mexicanos",
+            "estado":"Guanajuato",
+            "ciudad":"Guanajuato"
+         },
+         "fechaInicioProgramada":"2020-07-01",
+         "fechaFinProgramada":"2020-12-23",
+         "avances":[
+            
+         ]
+      },
+      {
+         "idServicio":"17",
+         "interno":"1",
+         "nombreCorto":"Curso de Green Belt para el personal de la CST",
+         "areaResponsable":"Unidad Zacatecas",
+         "estatus":"Abierto",
+         "alcance":"",
+         "cliente":{
+            "nombre":"Centro de Investigación en Matemáticas A.C.",
+            "sector":"Público",
+            "pais":"Estados Unidos Mexicanos",
+            "estado":"Guanajuato",
+            "ciudad":"Guanajuato"
+         },
+         "fechaInicioProgramada":"2020-09-21",
+         "fechaFinProgramada":"2020-09-25",
+         "avances":[
+            
+         ]
+      }
+   ]
+}

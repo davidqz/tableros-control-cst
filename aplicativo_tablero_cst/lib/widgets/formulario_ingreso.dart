@@ -1,4 +1,4 @@
-import 'package:aplicativo_tablero_cst/constantes.dart';
+import 'package:aplicativo_tablero_cst/utilidades/constantes.dart';
 import 'package:flutter/material.dart';
 
 class FormularioIngreso extends StatefulWidget {
